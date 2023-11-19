@@ -50,7 +50,7 @@ const DesktopVersion = () => {
           {/* ---------- Divider ---------- */}
 
           <div className={"section"}>
-            <div className={"sec_title"}>Dynamic Urban Planning</div>
+            <div className={"sec_title"}>Synthetic Data Generation</div>
             <hr />
             <PageTitle text={ContentMenu[1]["title"]} id={1} />
             <PageTitle text={ContentMenu[2]["title"]} id={2} />

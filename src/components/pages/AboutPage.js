@@ -3,7 +3,7 @@ import "../../App.css";
 import styles from "./AboutPage.module.css";
 
 import CopyrightSection from "../Copyright";
-
+import Spline from "@splinetool/react-spline";
 import { stateStore } from "../../stores";
 
 const AwardsSection = () => {
@@ -86,33 +86,23 @@ const SkillsSection = () => {
     <div className={"col"}>
       <div className={"page_content_subtitle"}>Technical Skills</div>
       <ul className={"page_content_content"}>
+        <li >
+          <span className={"highlight"}>Sythetic data generation: Omniverse Replicator</span>
+        </li>
         <li>
-          Data Analysis and Visualization: Julia, Python, C++, MATLAB, SQL,
-          D3.js, Deck.gl, Mapbox,
+          Data Analysis and Visualization: Python, SQL,
+          Deck.gl, Mapbox,
         </li>
         <li>
           Full-stack Web Development: React, Vue, HTML, CSS, JavaScript,
-          Three.js, ASP.NET, Flask, Node.js
+          ASP.NET, Node.js
         </li>
         <li>
-          Web3 and Blockchain: Polygon(Solidity), Solana(Rust), Hardhat, Remix
+          Design: Adobe Illustrator, Adobe Photoshop, Adobe XD, Figma
         </li>
-        <li>
-          Design and Modeling: Maya, Unity3D, AutoCAD, Figma, Adobe XD, Adobe
-          PS, Axure
-        </li>
-        <li>
-          Spatial Analytics: ArcGIS, QGIS, Oracle Spatial Studio, GeoPandas,
-          OSRM
-        </li>
-        <li>
-          Machine Learning: PyTorch, TensorFlow(TF 1.x, TF 2, TF.js),
-          scikit-learn
-        </li>
-        <li>Simulation Modeling: GAMA Platform, SUMO, Vensim</li>
-        <li>Data Extraction: Scrapy, Selenium, Axios, Fiddler, Flaui</li>
-        <li>Database: MySQL, PostgreSQL, InfluxDB, Neo4j, Redis, MongoDB</li>
-        <li>Tools: Git, Docker, MQTT, Grafana, Postman, AWS, Azure, Linux</li>
+        <li>Data Extraction: Selenium</li>
+        <li>Database: MySQL, PostgreSQL</li>
+        <li>Tools: Git, Docker,Linux</li>
       </ul>
     </div>
   );
@@ -314,6 +304,14 @@ const AboutPage = () => {
       </div>
       <div className={"row"}>
         <AwardsSection />
+      </div>
+      <div className={"row"}>
+        <Spline
+          // style={{position: 'relative' ,right:'300px' }}
+          // className="fade-in"
+          scene="https://prod.spline.design/w-l7RyhPVGLl8tHz/scene.splinecode"
+        />
+
       </div>
 
       <CopyrightSection />
