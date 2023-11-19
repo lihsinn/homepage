@@ -233,16 +233,12 @@ const EducationSection = () => {
       <div className={"page_content_subtitle"}>Education</div>
       <ul className={"page_content_content"}>
         <li>
-          2023-2025(expected), M.S., Media Technology,{" "}
-          <b>Massachusetts Institute of Technology(MIT)</b>, Cambridge, MA
+        Sept. 2021 ~ Feb. 2023, M.S., Industrial Engineering and Management,{" "}
+          <b>National Taipei University of Technology(NTUT)</b>, Taipei, Taiwan. <br/> <span> (<em>Cumulative GPA:</em> 4.0/4.0</span>)
         </li>
         <li>
-          2022-2023, Visiting Student, Media Arts & Sciences,{" "}
-          <b>Massachusetts Institute of Technology(MIT)</b>, Cambridge, MA
-        </li>
-        <li>
-          2017-2022, B.Eng, Software Engineering, Concentration in Media Arts &
-          Sciences, <b>Tongji University</b>, Shanghai, China
+        Sept. 2017 ~ Jun. 2021, B.S. , Industrial Engineering and Management,{" "}
+          <b>National Taipei University of Technology(NTUT)</b>, Taipei, Taiwan <br/> <span> (<em>Cumulative GPA:</em> 3.89/4.0</span>)
         </li>
       </ul>
     </div>
@@ -258,7 +254,7 @@ const AboutPage = () => {
       <div className={"row " + styles.about_container}>
         <div className={"col"}>
           <div className={"page_content_content"}>
-            My name is Jiajie Li (zh:李嘉杰), and I also go by Chance. I am
+            My name is Lily Chen (zh:陳莉心), and I also go by Chance. I am
             currently an{" "}
             <a href="https://www.media.mit.edu/people/jiajie/overview/">
               graduate student
@@ -279,13 +275,13 @@ const AboutPage = () => {
             .
           </div>
           <div className={"page_content_content"}>
-            Email: <a href="mailto:jiajie@mit.edu">jiajie@mit.edu</a>
+            Email: <a href="mailto:lihsinn.88@gmail.com">lihsinn.88@gmail.com</a>
             <br />
-            Github: <a href="https://github.com/LeeJAJA">github.com/LeeJAJA</a>
+            Github: <a href="https://github.com/lihsinn">github.com/lihsinn</a>
             <br />
             LinkedIn:{" "}
-            <a href="https://linkedin.com/in/chanceli">
-              linkedin.com/in/chanceli
+            <a href="https://www.linkedin.com/in/lily-chen-8a8102187/">
+              linkedin.com/in/lilychen
             </a>
           </div>
           <div className={"page_content_content"}>

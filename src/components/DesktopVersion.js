@@ -42,7 +42,7 @@ const DesktopVersion = () => {
               navigate(ContentMenu[17]["path"]);
             }}
           >
-            <div className={"title"}>Chance Jiajie Li's Gallery</div>
+            <div className={"title"}>Lily Chen's Gallery</div>
             <div className={"sub_title"}>
               RESEARCH, PROJECTS, COLLABORATIONS
             </div>
