@@ -67,7 +67,8 @@ const ContentMenu = {
   5: {
     path: "/livingline_wifi",
     element: <Livingline />,
-    title: "Livingline Shanghai - WiFi",
+    // title: "Livingline Shanghai - WiFi",
+    title: "Taiwan Island",
     // thumbnail: "/assets/Livingline/1.png",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -75,7 +76,8 @@ const ContentMenu = {
   6: {
     path: "/spatialequity",
     element: <SpatialEquity />,
-    title: "Spatial Equity NYC",
+    title: "Taipei Metro daily entry / exit",
+    // title: "Spatial Equity NYC",
     // thumbnail: "/assets/spatialequity/0.png",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -83,7 +85,7 @@ const ContentMenu = {
   7: {
     path: "/livingline_cam",
     element: <LivinglineCam />,
-    title: "Livingline Shanghai - Camera",
+    title: "Taiwan Island",
     // thumbnail: "/assets/LivinglineCam/0.png",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -91,7 +93,8 @@ const ContentMenu = {
   8: {
     path: "/crowdcounting",
     element: <CrowdCounting />,
-    title: "Drone Video Crowd Counting",
+    // title: "Drone Video Crowd Counting",
+    title: "Rebuild Kharkiv",
     // thumbnail: "/assets/crowd/1.png",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -99,7 +102,8 @@ const ContentMenu = {
   9: {
     path: "/eventcamera",
     element: <EventCamera />,
-    title: "Neuromorphic Camera Encryption",
+    // title: "Neuromorphic Camera Encryption",
+    title: "TaiwanIsland Dashboard",
     // thumbnail: "/assets/eventcamera/1.jpg",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -114,7 +118,8 @@ const ContentMenu = {
   10: {
     path: "/daosim",
     element: <DAOSim />,
-    title: "DAO Simulation",
+    title: "Dedupe the data in Enterprise information system",
+    // title: "DAO Simulation",
     // thumbnail: "/assets/daosim/2.png",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -122,7 +127,8 @@ const ContentMenu = {
   11: {
     path: "/mpavsim",
     element: <MPAVSim />,
-    title: "MPAV Simulation",
+    // title: "MPAV Simulation",
+    title: "Maintain data quality in Enterprise information system",
     // thumbnail: "/assets/mpavsim/4.png",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -130,7 +136,8 @@ const ContentMenu = {
   12: {
     path: "/olika",
     element: <Olika />,
-    title: "Olika",
+    // title: "Olika",
+    title: "Mail Request",
     // thumbnail: "/assets/olika/0.png",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -138,7 +145,8 @@ const ContentMenu = {
   13: {
     path: "/elderdesign",
     element: <ElderDesign />,
-    title: "Elder-Friendly Design Evaluation",
+    // title: "Elder-Friendly Design Evaluation",
+    title: "KIM Tool Website",
     // thumbnail: "/assets/elder/0.png",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -146,7 +154,8 @@ const ContentMenu = {
   14: {
     path: "/sandtray",
     element: <Sandtray />,
-    title: "Digital Sandtray Therapy",
+    // title: "Digital Sandtray Therapy",
+    title: "KIM Tool Excel Macro",
     // thumbnail: "/assets/sand/1.png",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -154,7 +163,8 @@ const ContentMenu = {
   15: {
     path: "/another",
     element: <TEDAnother />,
-    title: "Another",
+    // title: "Another",
+    title: "Real-time image annotation of tennis matches",
     // thumbnail: "/assets/ted2018/0.jpg",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
@@ -162,7 +172,8 @@ const ContentMenu = {
   16: {
     path: "/returnexpedition",
     element: <TEDReturn />,
-    title: "Return and Expedition",
+    // title: "Return and Expedition",
+    title: "OpenHCI 2021 Workshop",
     // thumbnail: "/assets/ted2019/1.jpg",
     thumbnail: "/assets/temp/1.png",
     displayInGallery: true,
