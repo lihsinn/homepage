@@ -50,7 +50,7 @@ const DesktopVersion = () => {
           {/* ---------- Divider ---------- */}
 
           <div className={"section"}>
-            <div className={"sec_title"}>Synthetic Data Generation</div>
+            <div className={"sec_title"}> Synthetic Data Generation </div>
             <hr />
             <PageTitle text={ContentMenu[1]["title"]} id={1} />
             <PageTitle text={ContentMenu[2]["title"]} id={2} />
@@ -60,7 +60,7 @@ const DesktopVersion = () => {
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
-            <div className={"sec_title"}>Urban Sensing + Analytics</div>
+            <div className={"sec_title"}> CityScope </div>
             <hr />
             <PageTitle text={ContentMenu[6]["title"]} id={6} />
             <PageTitle text={ContentMenu[5]["title"]} id={5} />
@@ -71,26 +71,32 @@ const DesktopVersion = () => {
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
-            <div className={"sec_title"}>Urban Simulation</div>
+            <div className={"sec_title"}>Office Automation</div>
             <hr />
             <PageTitle text={ContentMenu[10]["title"]} id={10} />
             <PageTitle text={ContentMenu[11]["title"]} id={11} />
+            <PageTitle text={ContentMenu[12]["title"]} id={12} />
           </div>
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
-            <div className={"sec_title"}>Human-Computer Interaction</div>
+            <div className={"sec_title"}>Key Indicator Method Tool</div>
             <hr />
-            <PageTitle text={ContentMenu[12]["title"]} id={12} />
             <PageTitle text={ContentMenu[13]["title"]} id={13} />
             <PageTitle text={ContentMenu[14]["title"]} id={14} />
           </div>
 
           {/* ---------- Divider ---------- */}
           <div className={"section"}>
-            <div className={"sec_title"}>Curation</div>
+            <div className={"sec_title"}>Computer Vision</div>
             <hr />
             <PageTitle text={ContentMenu[15]["title"]} id={15} />
+          </div>
+
+          {/* ---------- Divider ---------- */}
+          <div className={"section"}>
+            <div className={"sec_title"}>Workshop</div>
+            <hr />
             <PageTitle text={ContentMenu[16]["title"]} id={16} />
           </div>
 
