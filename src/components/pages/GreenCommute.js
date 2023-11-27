@@ -9,27 +9,27 @@ const Content = () => (
     <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticFactoryWorkpiece/1.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticFactoryWorkpiece/1.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticFactoryWorkpiece/2.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticFactoryWorkpiece/2.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticFactoryWorkpiece/3.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticFactoryWorkpiece/3.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticFactoryWorkpiece/4.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticFactoryWorkpiece/4.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticFactoryWorkpiece/5.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticFactoryWorkpiece/5.JPG`}
         alt={""}
       />
       
@@ -39,7 +39,7 @@ const Content = () => (
   //   <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/greencommute/1.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/greencommute/1.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -88,14 +88,14 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/greencommute/2.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/greencommute/2.png`}
   //       alt={""}
   //     />
   //   </div>
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/greencommute/3.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/greencommute/3.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -108,7 +108,7 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/greencommute/4.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/greencommute/4.png`}
   //       alt={""}
   //     />
   //   </div>

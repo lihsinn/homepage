@@ -218,7 +218,7 @@ const AboutPage = () => {
           </div>
         </div>
         <div className={styles.avatar_container} alt={""}>
-          <img className={styles.avatar} src={`/avatar.jpg`} alt={""} />
+          <img className={styles.avatar} src={process.env.PUBLIC_URL +`/avatar.jpg`} alt={""} />
         </div>
         {/*  */}
       </div>

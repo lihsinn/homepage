@@ -9,57 +9,57 @@ const Content = () => (
      <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/1.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticBoxSegmentation/1.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/2.JPG`}
+        src={process.env.PUBLIC_URL +`/assets/syntheticBoxSegmentation/2.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/3.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticBoxSegmentation/3.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/4.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticBoxSegmentation/4.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/5.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticBoxSegmentation/5.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/6.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticBoxSegmentation/6.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/7.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticBoxSegmentation/7.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/8.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticBoxSegmentation/8.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/9.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticBoxSegmentation/9.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/10.JPG`}
+        src={process.env.PUBLIC_URL +`/assets/syntheticBoxSegmentation/10.JPG`}
         alt={""}
       />
       <img
         className={"img_aspect"}
-        src={`/assets/syntheticBoxSegmentation/11.JPG`}
+        src={process.env.PUBLIC_URL + `/assets/syntheticBoxSegmentation/11.JPG`}
         alt={""}
       />
     </div>
@@ -68,7 +68,7 @@ const Content = () => (
   //   <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/1.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/1.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -117,7 +117,7 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/8.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/8.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -145,28 +145,28 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/3.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/3.png`}
   //       alt={""}
   //     />
   //   </div>
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/4.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/4.png`}
   //       alt={""}
   //     />
   //   </div>
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/5.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/5.png`}
   //       alt={""}
   //     />
   //   </div>
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/6.jpeg`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/6.jpeg`}
   //       alt={""}
   //     />
   //   </div>
@@ -179,7 +179,7 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/6.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/6.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -197,7 +197,7 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/9.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/9.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -212,7 +212,7 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/10.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/10.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -225,7 +225,7 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/11.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/11.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -238,7 +238,7 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/communitydao/12.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/communitydao/12.png`}
   //       alt={""}
   //     />
   //   </div>

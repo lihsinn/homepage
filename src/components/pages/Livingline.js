@@ -14,7 +14,7 @@ const Content = () => (
   //   <div style={{ width: "100%", marginBottom: "40px" }} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/Livingline/wifi.gif`}
+  //       src={process.env.PUBLIC_URL + `/assets/Livingline/wifi.gif`}
   //       alt={""}
   //     />
   //   </div>
@@ -44,7 +44,7 @@ const Content = () => (
   //   <div style={{ width: "80%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/Livingline/nice2035.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/Livingline/nice2035.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -64,7 +64,7 @@ const Content = () => (
   //   <div style={{ width: "90%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/Livingline/study_area.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/Livingline/study_area.png`}
   //       alt={""}
   //     />
   //   </div>

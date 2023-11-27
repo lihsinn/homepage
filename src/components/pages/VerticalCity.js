@@ -47,21 +47,21 @@ const Content = () => (
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/verticalcity/2.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/verticalcity/2.png`}
   //       alt={""}
   //     />
   //   </div>
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/verticalcity/3.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/verticalcity/3.png`}
   //       alt={""}
   //     />
   //   </div>
   //   <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //     <img
   //       className={"img_aspect"}
-  //       src={`/assets/verticalcity/4.png`}
+  //       src={process.env.PUBLIC_URL + `/assets/verticalcity/4.png`}
   //       alt={""}
   //     />
   //   </div>
@@ -71,14 +71,14 @@ const Content = () => (
   //     <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //       <img
   //         className={"img_aspect"}
-  //         src={`/assets/verticalcity/5.png`}
+  //         src={process.env.PUBLIC_URL + `/assets/verticalcity/5.png`}
   //         alt={""}
   //       />
   //     </div>
   //     <div style={{ width: "100%" }} className={"center img_margin"} alt={""}>
   //       <img
   //         className={"img_aspect"}
-  //         src={`/assets/verticalcity/6.png`}
+  //         src={process.env.PUBLIC_URL + `/assets/verticalcity/6.png`}
   //         alt={""}
   //       />
   //     </div>
