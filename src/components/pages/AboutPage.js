@@ -197,7 +197,7 @@ const AboutPage = () => {
             <br />
             LinkedIn:{" "}
             <a href="https://www.linkedin.com/in/lily-chen-8a8102187/">
-              linkedin.com/in/lilychen
+              linkedin.com/lilychen
             </a>
           </div>
           <div className={"page_content_content"}>
