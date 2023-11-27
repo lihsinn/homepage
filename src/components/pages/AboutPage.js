@@ -27,18 +27,25 @@ const AwardsSection = () => {
 const DomainSection = () => {
   return (
     <div className={"col"}>
-      <div className={"page_content_subtitle"}>Interests and Domains</div>
+      <div className={"page_content_subtitle"}>Certificate</div>
       <ul className={"page_content_content"}>
         <li>
-          Urban: Dynamic Urban Planning; Urban Informatics; Urban Simulation
+        Udemy - Python Data Structures & Algorithms + LEETCODE Exercise (progress: 200/229)
         </li>
         <li>
-          Web3: On-chain Governance; Decentralized Autonomous Organization(DAO);
-          Decentralized App(DApp)
+        NVIDIA Develop, Customize, and Publish in Omniverse With Extensions
         </li>
         <li>
-          Computer Science: Agent-based Simulation; Deep Learning; Privacy;
-          Sensors; Data Visualization
+        PADI Open Water Diver scuba Certificate
+        </li>
+        <li>
+        Road to off-road 9KM Certificate
+        </li>
+        <li>
+        NVIDIA Deep Learning Foundation-Computer Vision
+        </li>
+        <li>
+        New Taipei City Street Artists, Portrait Sketch
         </li>
       </ul>
     </div>
@@ -188,7 +195,13 @@ const AboutPage = () => {
           <div className={"page_content_content"}>
              Hi! I'm Lily Chen (陳莉心), currently working as an Omniverse Software Engineer at Techman Robot, a collaborative robot manufacturer in Taiwan. I am a hard-working person. My role is to focus on NVIDIA Omniverse development, specifically in NVIDIA Omniverse Isaac Sim and Replicator, with a specialization in creating synthetic data.
             <br />
-            Outside of work, I have a passion for various interests. I'm a pasta lover and can happily eat pasta every day. I also enjoy cooking, scuba diving, working out, and indulging in mysteries and clever plot dramas.
+            Outside of work, I have a passion for various interests. 
+            <br />
+            I'm a pasta lover and can happily eat pasta every day.
+            <br />
+            I also enjoy cooking, scuba diving, working out, and indulging in mysteries and clever plot dramas.
+            <br />
+            I once traveled to London alone for a week! I love London, and my dream is to live and work there for at least a year!
           </div>
           <div className={"page_content_content"}>
             Email: <a href="mailto:lihsinn.88@gmail.com">lihsinn.88@gmail.com</a>
@@ -212,9 +225,9 @@ const AboutPage = () => {
       <div className={"row"}>
         <EducationSection />
       </div>
-      {/* <div className={"row"}>
+      <div className={"row"}>
         <DomainSection />
-      </div> */}
+      </div>
       <div className={"row"}>
         <SkillsSection />
       </div>
