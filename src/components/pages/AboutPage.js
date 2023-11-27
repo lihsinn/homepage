@@ -230,14 +230,14 @@ const AboutPage = () => {
       <div className={"row"}>
         <AwardsSection />
       </div>
-      <div className={"row"}>
+      {/* <div className={"row"}>
         <Spline
           // style={{position: 'relative' ,right:'300px' }}
           // className="fade-in"
           scene="https://prod.spline.design/w-l7RyhPVGLl8tHz/scene.splinecode"
         />
 
-      </div>
+      </div> */}
 
       <CopyrightSection />
     </div>
